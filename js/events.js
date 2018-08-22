@@ -17,6 +17,14 @@ $("form").on("submit", function() {
   });
 }
 
+function pressIt(){
+  $(document).on('keyup', function (key){
+    if(key.which == 71){
+      alert("The G key was pressed down.");
+    }
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
