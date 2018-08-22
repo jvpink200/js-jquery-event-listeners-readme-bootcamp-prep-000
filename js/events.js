@@ -1,12 +1,12 @@
 //define functions here
-
+function getIt(){
+  $("p").on("click", function(event){
+    alert("Hey!");
+  });
+}
 
 $(document).ready(function(){
-  function getIt(){
-    $("p").on("click", function(event){
-      alert("Hey!");
-    });
-  }
+
 // call functions here
 return getIt();
 });
